@@ -1,0 +1,19 @@
+@media screen and (max-width: 992px) {
+  .banner {
+    height: 100%;
+  }
+  .banner .text-content {
+    margin: 50px 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+}

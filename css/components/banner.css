@@ -1,0 +1,20 @@
+.banner {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  color: black;
+}
+
+.banner .text-content {
+  background-color: rgba(255,255,255,0.6);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.banner .text-content h1{
+  margin:10px 0px;
+}
+
+.banner .text-content p {
+  margin-bottom: 40px;
+}
