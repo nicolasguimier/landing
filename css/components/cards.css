@@ -6,11 +6,12 @@
 
 .card {
   border: solid 1px rgb(67, 235, 52);
-  box-shadow: 0 0 10px rgb(67, 235, 52);;
+  box-shadow: 0 0 10px rgb(67, 235, 52);
   max-width: 250px;
   padding: 30px;
   margin: 20px 0;
   min-height: 380px;
+  position: relative;
 }
 .card img {
   height: 70px;
@@ -20,3 +21,30 @@
 .card img:hover {
   transform: scale(1.1);
 }
+
+input#great{
+  position: absolute;
+  left: -9999px;
+}
+input#great + label{
+  font-size: 35px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  animation: igor-effect 1s infinite;
+}
+
+input#great:checked + label{
+  color: rgb(67, 235, 52);
+  animation: none;
+
+}
+
+@keyframes igor-effect {
+    0% {transform: scale(1.2);}
+    50% {transform: scale(1);}
+    100% {transform: scale(1.2);}
+}
+
+
